@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "inline-css": "compiledCSS=$(lessc --clean-css stylesheets/home.less) && sed -i '' \"7s/.*/        $compiledCSS/\" index.html"
+    "inline-css": "compiledCSS=$(lessc --clean-css stylesheets/home.less) && sed -i '' \"8s/.*/        $compiledCSS/\" index.html"
   },
   "repository": {
     "type": "git",

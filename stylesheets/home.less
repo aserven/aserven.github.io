@@ -1,4 +1,6 @@
+@darker-green: #353;
 @grey: #555;
+@dark-green: #585;
 @lighter-green: #AADD77;
 @pastel-green: #77DD88;
 
@@ -24,20 +26,20 @@ html, body {
     /* IE 8 */
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{pastel-green}, endColorstr=@{pastel-green})" no-repeat;
 }
-* {
-    color: @grey;
-}
 span {
     word-spacing: none;
 }
 .name {
     padding: 200px 0 50px 0;
     font-size: 100px;
-    color: #333;
+    color: @darker-green;
     text-align: center;
 }
 .title {
     text-align: center;
+}
+* {
+    color: @dark-green;
 }
 .logos {
     position: absolute;
